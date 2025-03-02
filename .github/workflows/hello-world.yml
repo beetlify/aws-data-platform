@@ -17,5 +17,4 @@ jobs:
 
       - name: Print Hello World and Branch Name
         run: |
-          echo "Hello, World! GitHub Actions are running!"
-          echo "Branch Name: ${GITHUB_REF#refs/heads/}"
+          echo "Hello, World! From ${GITHUB_REF#refs/heads/} branch"
