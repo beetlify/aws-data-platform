@@ -5,6 +5,7 @@ on:
     branches:
       - 'feature/*'  # Triggers on any branch that starts with 'feature/'
       - 'main'
+      - 'github_action_hw'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
